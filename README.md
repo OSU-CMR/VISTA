@@ -1,10 +1,8 @@
 VISTA--A spatiotemporal sampling method for dynamic MRI <br>
-===========================================================
 
 Matlab code to generate Variable Density Incoherent Spatiotemporal 
 Acquisition (VISTA)
 
-===========================================================
 Version 1.0 <br>
 Last updated 08/01/2014 <br>
 Author: Rizwan Ahmad (ahmad.46@osu.edu) <br>
@@ -15,7 +13,7 @@ Resonance in Medicine, in revision <br>
  
 2014, Patent Pending <br>
 
-===========================================================
+
 Copyright (c) 2014 - The Ohio State University. <br>
 All rights reserved. <br>
 
@@ -34,9 +32,8 @@ ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
 THE OHIO STATE UNIVERSITY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH 
 DAMAGE. <br>
 
-THE OHIO STATE UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
-AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS 
-ON AN "AS IS" BASIS, AND THE OHIO STATE UNIVERSITY HAS NO OBLIGATION TO 
-PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS. <br>
-===========================================================
+THE OHIO STATE UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES INCLUDING, 
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" 
+BASIS, AND THE OHIO STATE UNIVERSITY HAS NO OBLIGATION TO PROVIDE 
+MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS. <br>
