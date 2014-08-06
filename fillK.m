@@ -1,5 +1,5 @@
 function [Pacc, Tacc] = fillK(P, T, Pacc, Tacc, param)
-% Ensures time-average of CAST is fully sampled (except for the outer most
+% Ensures time-average of VISTA is fully sampled (except for the outer most
 % region)
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 
