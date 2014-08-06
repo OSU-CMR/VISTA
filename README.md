@@ -8,10 +8,7 @@ Acquisition (VISTA)
 Version 1.0 <br>
 Last updated 08/01/2014 <br>
 Author: Rizwan Ahmad (ahmad.46@osu.edu) <br>
-Reference: R. Ahmad, H. Xue, S. Giri, Y. Ding, J. Craft, O.P. Simonetti,  <br>
-Variable Density Incoherent Spatiotemporal Acquisition (VISTA)  <br>
-for Highly Accelerated Cardiac Magnetic Resonance Imaging, Magnetic  <br>
-Resonance in Medicine, in revision <br>
+Reference: R. Ahmad, H. Xue, S. Giri, Y. Ding, J. Craft, O.P. Simonetti, Variable Density Incoherent Spatiotemporal Acquisition (VISTA) for Highly Accelerated Cardiac Magnetic Resonance Imaging, Magnetic Resonance in Medicine, in revision <br>
  
 2014, Patent Pending
 <hr>
