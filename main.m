@@ -1,3 +1,5 @@
+% Author: Rizwan Ahmad (ahmad.46@osu.edu)
+
 clear all;
 close all;
 clc;
