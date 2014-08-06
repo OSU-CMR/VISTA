@@ -1,7 +1,9 @@
-VISTA--A spatiotemporal sampling method for dynamic MRI <br>
+<b> VISTA--A spatiotemporal sampling method for dynamic MRI </b>
+<hr>
 
 Matlab code to generate Variable Density Incoherent Spatiotemporal 
 Acquisition (VISTA)
+<hr>
 
 Version 1.0 <br>
 Last updated 08/01/2014 <br>
@@ -11,7 +13,8 @@ Variable Density Incoherent Spatiotemporal Acquisition (VISTA)  <br>
 for Highly Accelerated Cardiac Magnetic Resonance Imaging, Magnetic  <br>
 Resonance in Medicine, in revision <br>
  
-2014, Patent Pending <br>
+2014, Patent Pending
+<hr>
 
 
 Copyright (c) 2014 - The Ohio State University. <br>
