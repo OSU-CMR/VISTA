@@ -41,6 +41,7 @@ close all;
 clc;
 
 
+
 %% Select a sampling type =================================================
 param.typ = 'VISTA'; % VISTA
 % param.typ = 'VRS'; % Variable density random
