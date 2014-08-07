@@ -1,4 +1,4 @@
-<b> VISTA--A spatiotemporal sampling method for 2D dynamic MRI </b>
+<b> VISTA--A spatiotemporal sampling method for 2D dynamic MRI. </b>
 <hr>
 
 This is a Matlab code to generate Variable Density Incoherent Spatiotemporal Acquisition (VISTA). <b> To begin, download all the files in the same folder and run main.m in Matlab </b>
