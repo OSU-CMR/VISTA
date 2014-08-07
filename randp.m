@@ -49,7 +49,7 @@ function X = randp(P,sd,varargin)
 % 2.0 (feb 2009) - use HISTC for creating the integers (faster and simplier than
 %                  previous algorithm)
 
-% Note:
+% Note: =========================
 % I (Rizwan Ahmad) am not the origianl author of this randp.m function. I have only
 % slightly modified this code. Please follow the above listed copyright
 % information and contact the original aurthor if you have question about randp.m.
