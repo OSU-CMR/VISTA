@@ -3,6 +3,7 @@ function [param] = checkParam(param)
 % assigned by the user, the default value will be used for that parameter.
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 
+
 % param.typ
 if ~isfield(param, 'typ') || isempty(param.typ)
     error('No value has been assigned to param.typ');
