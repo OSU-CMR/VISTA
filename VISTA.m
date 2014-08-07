@@ -1,6 +1,7 @@
 function [samp] = VISTA(param)
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 
+
 typ   = param.typ;   % Type of sampling
 p     = param.p;     % Number of phase encoding steps
 t     = param.t;     % Number of frames
