@@ -1,4 +1,4 @@
-We can taken down pieces of the code to resolve patent-related issues. Once those issues are resolved, we will upload the missing pieces.
+<b>We can taken down pieces of the code to resolve patent-related issues. Once those issues are resolved, we will upload the missing pieces.</b>
 
 
 
