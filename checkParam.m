@@ -107,7 +107,7 @@ end
 % param.W
 if ~isfield(param, 'W') || isempty(param.W)
 %     param.W = max(param.R/8, 1); % default
-    param.W = param.R/10 + 0.25;
+    param.W = param.R/10 + 0.5;
 elseif param.W <= 0
     error('The value assigned to param.W must be greater than zero');
 end
@@ -129,6 +129,6 @@ end
 % param.fs
 if ~isfield(param, 'fs') || isempty(param.fs)
     param.fs = 1; % default
-elseif (param.fs ~= 0 && param.fs ~= 1 && param.fs <= param.R) || rem(param.fs,1)
+elseif (param.fs ~= 0 && param.fs ~= 1 && param.fs < param.R) || rem(param.fs,1)
     error('The value assigned to param.fs must be a non-negative integer');
 end
