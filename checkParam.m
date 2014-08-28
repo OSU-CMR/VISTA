@@ -107,7 +107,7 @@ end
 % param.W
 if ~isfield(param, 'W') || isempty(param.W)
 %     param.W = max(param.R/8, 1); % default
-    param.W = param.R/10 + 0.5;
+    param.W = param.R/10 + 0.25;
 elseif param.W <= 0
     error('The value assigned to param.W must be greater than zero');
 end
