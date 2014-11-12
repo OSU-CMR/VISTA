@@ -62,7 +62,7 @@ end
 
 % param.ss
 if ~isfield(param, 'ss') || isempty(param.ss)
-    param.ss = 0.2; % default
+    param.ss = 0.25; % default
 elseif param.ss <= 0
     error('The value assigned to param.ss must be greater than zero');
 end
