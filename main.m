@@ -60,7 +60,7 @@ param.sd    = 10; % Seed to generate random numbers; a fixed seed should reprodu
 %% Probably you don't need to mess with these paramters ===================
 % If unsure, leave them empty and the default value will be employed.
 param.nIter= []; % Number of iterations for VISTA (defualt: 120)
-param.ss   = []; % Step-size for gradient descent. Default value: 0.2; 
+param.ss   = []; % Step-size for gradient descent. Default value: 0.25; 
 param.tf   = []; % Step-size in time direction wrt to phase-encoding direction; use zero for constant temporal resolution. Default value: 0.0
 param.s    = []; % Exponent of the potenital energy term. Default value 1.4
 param.g    = []; % Every gth iteration is relocated on a Cartesian grid. Default value: floor(param.nIter/6)
