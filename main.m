@@ -55,6 +55,8 @@ param.R     = 8;  % Net acceleration rate
 param.alph  = 0.28;      % 0<alph<1 controls sampling density; 0: uniform density, 1: maximally non-uniform density
 param.sig   = param.p/5; % Std of the Gaussian envelope for sampling density
 param.sd    = 10; % Seed to generate random numbers; a fixed seed should reproduce VISTA
+param.W     = max(param.R/10 + 0.25, 1); % Scaling of time dimension; frames are "W" units apart
+
 
 
 %% Probably you don't need to mess with these paramters ===================
@@ -65,7 +67,6 @@ param.tf   = []; % Step-size in time direction wrt to phase-encoding direction; 
 param.s    = []; % Exponent of the potenital energy term. Default value 1.4
 param.g    = []; % Every gth iteration is relocated on a Cartesian grid. Default value: floor(param.nIter/6)
 param.uni  = []; % At param.uni iteration, reset to equivalent uniform sampling. Default value: floor(param.nIter/2)
-param.W    = []; % Scaling of time dimension; frames are "W" units apart. Default value: max(param.R/6,1)
 param.sz   = []; % Display size of samples. Default value: 3.5
 param.dsp  = 5; % Display frequency (verbosity), every dsp-th iteration will be displayed. Default value: 1
 param.fs   = 1; % Does time average has to be fully sampled, 0 for no, 1 for yes. Only works with VISTA. Default value: 1
