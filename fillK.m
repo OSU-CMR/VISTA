@@ -4,10 +4,11 @@ function [Pacc, Tacc] = fillK(P, T, Pacc, Tacc, param)
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 
 p   = param.p;
+fr  = param.fr; % fraction of k-space to be fully sampled
 
 
 % empty locations;
-tmp = setdiff(-floor(p/2):ceil(p/2)-1,P);
+tmp = setdiff(-floor(fr*p/2):ceil(fr*p/2)-1,P);
 [tmp2, ord] = sort(abs(tmp));
 tmp2 = tmp2.*sign(tmp(ord)); % Sorted (from center-out) empty locations
 
@@ -34,7 +35,7 @@ while numel(tmp2)>0
     Pacc(Pacc == Pcan(slc) & Tacc == Tcan(slc)) = ind; % Fill the hole with the appropriate candidate
     P(P == Pcan(slc) & T == Tcan(slc)) = ind; % Fill the hole with the approprate candidate
 %     figure; plot(Tacc,Pacc,T,P+0.1,'--r');
-    tmp = setdiff(-floor(p/2):ceil(p/2)-1,P);
+    tmp = setdiff(-floor(fr*p/2):ceil(fr*p/2)-1,P);
     tmp = excludeOuter(tmp,p);
     [tmp2, ord] = sort(abs(tmp));
     tmp2 = tmp2.*sign(tmp(ord)); % Find new holes
