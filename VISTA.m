@@ -1,7 +1,6 @@
 function [samp] = VISTA(param)
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 
-
 typ   = param.typ;   % Type of sampling
 p     = param.p;     % Number of phase encoding steps
 t     = param.t;     % Number of frames
@@ -168,7 +167,7 @@ for i=1:nIter
         ph = ph(1:N);
         ti = ti(1:N);
         if fs==1; % Ensuring fully sampledness at average all
-            [ph, ti] = fillK(ph, ti, ph, ti,param);
+            [ph, ti] = fillK(ph, ti, ph, ti, param);
         elseif fs>1 % Ensuring fully sampledness for "fs" frames
             for m = 1:floor(t/fs)
                 tmp = (m-1)*tr*fs + 1 : m*tr*fs;
