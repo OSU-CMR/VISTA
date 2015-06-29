@@ -5,7 +5,9 @@ This Matlab code generates Variable Density Incoherent Spatiotemporal Acquisitio
 <hr>
 
 Version 1.0 <br>
-Last updated 08/01/2014 <br>
+Original posting 08/01/2014 <br>
+Updated on 06/29/2015 to fix error message related to 'fr'
+
 Author: Rizwan Ahmad (ahmad.46@osu.edu) <br>
 Reference: R. Ahmad, H. Xue, S. Giri, Y. Ding, J. Craft, O.P. Simonetti, Variable Density Incoherent Spatiotemporal Acquisition (VISTA) for Highly Accelerated Cardiac Magnetic Resonance Imaging, Magnetic Resonance in Medicine, in revision <br>
  
