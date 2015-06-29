@@ -70,6 +70,7 @@ param.uni  = []; % At param.uni iteration, reset to equivalent uniform sampling.
 param.sz   = []; % Display size of samples. Default value: 3.5
 param.dsp  = 5; % Display frequency (verbosity), every dsp-th iteration will be displayed. Default value: 1
 param.fs   = 1; % Does time average has to be fully sampled, 0 for no, 1 for yes. Only works with VISTA. Default value: 1
+param.fr   = []; % What fraction of the time-averaged should be fully sampled. Default value: 1
 param.fl   = []; % Start checking fully sampledness at fl^th iteration. Default value: floor(param.nIter*5/6)
 
                   
