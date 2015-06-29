@@ -134,8 +134,8 @@ elseif (param.fs ~= 0 && param.fs ~= 1 && param.fs < param.R) || rem(param.fs,1)
 end
 
 % param.fr
-if ~isfield(param, 'fs') || isempty(param.fs)
+if ~isfield(param, 'fr') || isempty(param.fr)
     param.fr = 1; % default
 elseif (param.fr <= 0 || param.fr > 1)
-    error('The value assigned to param.fs must be a non-negative integer');
+    error('The value assigned to param.fr must be zero or one');
 end
