@@ -1,7 +1,6 @@
 % =========================================================================
 % Generates VISTA sampling pattern
 % Version 1.0
-% Last updated 08/01/2014
 % Author: Rizwan Ahmad (ahmad.46@osu.edu)
 % Reference: R. Ahmad, H. Xue, S. Giri, Y. Ding, J. Craft, O.P. Simonetti, 
 % Variable Density Incoherent Spatiotemporal Acquisition (VISTA) 
